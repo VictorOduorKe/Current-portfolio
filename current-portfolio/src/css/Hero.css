@@ -1,0 +1,60 @@
+.hero{
+    display: flex;
+    width: 100%;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.hero .left{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    align-items: center;
+}
+.hero .left a{
+    background:var(--color-btn-bg);
+    padding:10px;
+    border-radius:20px;
+    margin-top: 10px;
+    min-width: 170px;
+    text-align: center;
+    transition: all 0.5s ease-in-out;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:10px
+}
+.hero .left a img{
+    width:30px ;
+}
+.hero .left a:hover{
+    background:var(--color-text-secondary);
+    color: var(--color-btn-bg);
+}
+.hero .right{
+    width:400px; 
+    height:400px; 
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+ }
+ .hero .left p{
+    font-size: 24px;
+ }
+ .hero .left p span{
+    font-size: 24px;
+    background: linear-gradient(to left,var(--color-btn-bg),var(--color-text-secondary));
+    -webkit-background-clip: text;
+    background-clip: clip;
+    color: transparent;
+    font-weight: 800;
+ }
+.hero .right img{
+   width:100%; 
+   height: 100%;
+   border-radius: 50%;
+   padding:10px;
+   box-shadow: inset 0 0 10px greenyellow;
+}

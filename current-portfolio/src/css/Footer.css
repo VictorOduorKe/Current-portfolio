@@ -1,0 +1,48 @@
+.footer{
+    background: var(--color-bg-primary);
+    display: flex;
+    align-items: center;
+    padding:10px;
+    justify-content: center;
+}
+.social-icons{
+    display: flex;
+    gap:10px;
+    margin: 30px;
+}
+.social-icons a{
+    width: 50px;
+    height: 50px;
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+.social-icons i{
+    width: 30px;
+    font-size: 30px;
+    border-radius: 50%;
+    background:black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:5px;
+}
+.social-icons i:hover {
+    font-size: 35px;
+    animation: animateFooterIcons 1s ease-in-out infinite;
+    color: green;
+}
+
+@keyframes animateFooterIcons {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(360deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}

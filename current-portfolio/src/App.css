@@ -1,0 +1,31 @@
+:root{
+  --color-bg-primary:#3D3D3D;
+  --color-bg-secondary:#578E7E;
+  --color-text-primary:#FFFAEC;
+  --color-text-secondary:#F5ECD5;
+  --color-btn-bg:#F14A00;
+  --font-poppins:poppins,"sans-serif"
+}
+
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+
+a{
+  color: var(--color-text-primary);
+  font-size: 24px;
+  font-weight: 800;
+  text-decoration:  none;
+}
+ul{
+  list-style: none;
+}
+body{
+  background:#578E7E;
+  font-family: var(--font-poppins);
+}
+html {
+  scroll-behavior: smooth;
+}

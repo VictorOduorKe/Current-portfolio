@@ -1,0 +1,47 @@
+.projects-container{
+    display:flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 20px auto;
+}
+.projects-container h1{
+    text-align: center;
+    margin: 30px;
+    font-size: 60px;
+}
+.projects{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px, 1fr));
+    gap:20px;
+}
+.projects h1{
+    font-size: 24px;
+    margin: 10px;
+}
+.project{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow:0 0 5px var( --color-bg-primary);
+    gap:10px;
+}
+.project img{
+    width: 240px;
+    height: 240px;
+}
+.project a{
+    background: var(--color-btn-bg);
+    padding:10px;
+    width: 50%;
+    border-radius: 10px;
+    margin: 10px auto;
+    transition: all 0.5s ease-in-out;
+}
+.project a:hover{
+    background: var( --color-bg-primary);
+}
+.disabled-link {
+    pointer-events: none;
+    opacity: 0.5;
+    cursor: not-allowed;
+}
