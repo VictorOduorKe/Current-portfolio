@@ -46,3 +46,26 @@
         transform: rotate(0deg);
     }
 }
+@media (max-width: 600px) {
+    .footer{
+        flex-direction: column;
+        align-items: center;
+    }
+    .social-icons{
+        margin: 10px;
+    }
+    .social-icons a{
+        width: 20px;
+        height: 20px;
+    }
+    .social-icons i{
+        width: 10px;
+        font-size: 10px;
+    }
+    .social-icons i:hover {
+        font-size: 15px;
+        animation: animateFooterIcons 0.5s ease-in-out infinite;
+        color: greenyellow;         
+    }
+    
+}

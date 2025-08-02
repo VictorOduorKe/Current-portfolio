@@ -10,12 +10,14 @@ import SQL_DB from "../assets/sql.jpg";
 import valentine from "../assets/valentine.png";
 import form from "../assets/form.png";
 import number_game from "../assets/number-game.png";
+import python from "../assets/python.png";
 
 
 export const dev_skills = [
     { skill_name: "PHP", skill_image: phpic, skill_description: "" },
     { skill_name: "JavaScript", skill_image: Javascriptpic, skill_description: "" },
     { skill_name: "SQL Database", skill_image:SQL_DB, skill_description: "" },
+    { skill_name: "Python", skill_image: python, skill_description: "Python essentials" },
     { skill_name: "React JS", skill_image: reactpic, skill_description: "" }
 ];
 

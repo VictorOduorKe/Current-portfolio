@@ -32,7 +32,7 @@
 .project a{
     background: var(--color-btn-bg);
     padding:10px;
-    width: 50%;
+    width: auto;
     border-radius: 10px;
     margin: 10px auto;
     transition: all 0.5s ease-in-out;
@@ -44,4 +44,35 @@
     pointer-events: none;
     opacity: 0.5;
     cursor: not-allowed;
+}
+@media (max-width: 768px) {
+    .projects-container{
+        width: 90%;
+    }
+    .projects h1{
+        font-size: 20px;
+    }
+    .project img{
+        width: 200px;
+        height: 200px;
+    }
+    .project a{
+        width: 70%;
+    }
+    .project h1{
+        font-size: 16px;
+    }
+    .projects{
+        grid-template-columns: repeat(auto-fit,minmax(200px, 1fr));
+    }
+    .projects-container h1{
+        font-size: 40px;
+    }
+    .project a{
+        padding: 8px;
+        font-size: 16px;
+        margin: 10px;
+        width: auto;
+    }
+    
 }
